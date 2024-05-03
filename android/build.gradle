@@ -1,6 +1,6 @@
 buildscript {
   // Buildscript is evaluated before everything else so we can't use getExtOrDefault
-  def kotlin_version = "1.6.20"
+  def kotlin_version = "1.9.22"
 
   repositories {
     google()
@@ -118,7 +118,7 @@ repositories {
   }
 }
 
-def kotlin_version = "1.6.0"
+def kotlin_version = '1.9.22'
 
 dependencies {
   // noinspection GradleDynamicVersion
